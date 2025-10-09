@@ -1,0 +1,44 @@
+{
+  "expo": {
+    "name": "canopyx",
+    "slug": "snack-86772f5d-93e6-4d75-b1e3-8fd07eb434ca",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+      "plugins": [
+      [
+        "expo-google",
+        {
+          "iosClientId": "your-ios-client-id",
+          "androidClientId": "your-android-client-id",
+          "webClientId": "your-web-client-id"
+        }
+      ]
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-web-browser",
+      "expo-secure-store",
+      "expo-asset"
+    ]
+  }
+}
