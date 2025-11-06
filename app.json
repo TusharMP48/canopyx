@@ -12,16 +12,6 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-      "plugins": [
-      [
-        "expo-google",
-        {
-          "iosClientId": "your-ios-client-id",
-          "androidClientId": "your-android-client-id",
-          "webClientId": "your-web-client-id"
-        }
-      ]
-    ],
     "ios": {
       "supportsTablet": true
     },
@@ -30,15 +20,16 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.tusharmp.snack86772f5d93e64d75b1e38fd07eb434ca"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
-    "plugins": [
-      "expo-web-browser",
-      "expo-secure-store",
-      "expo-asset"
-    ]
+    "extra": {
+      "eas": {
+        "projectId": "f98bb860-2aeb-426f-bdba-29fd3a299971"
+      }
+    }
   }
 }
